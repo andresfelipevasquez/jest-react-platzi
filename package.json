@@ -59,6 +59,7 @@
     "eslint-plugin-react": "^7.14.3",
     "jest": "^24.9.0",
     "prettier": "^1.19.1",
+    "react-test-renderer": "^16.12.0",
     "webpack-dev-server": "^3.11.2"
   },
   "bugs": {
@@ -69,7 +70,7 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ],
-    "moduleNameMapper":{
+    "moduleNameMapper": {
       "\\.(css|less|sass|scss|styl)$": "<rootDir>/src/__test__/__mocks__/styleMock.js"
     }
   }
